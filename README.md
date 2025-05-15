@@ -1,91 +1,285 @@
-<!--
-README.md - Powerful Animated Dynamic Stunning GitHub Profile README
-Created for: YOU
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lokesh Yechina - Dynamic Portfolio README</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-<!-- Banner -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" alt="Animated Banner" width="100%" />
-</p>
+  /* Reset */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
 
-<h1 align="center">
-  👋 Hey there, I'm <span style="color:#FF6F61;">Lokesh Yechina</span>! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" />
-</h1>
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  header h1 {
+    font-size: 3rem;
+    color: #ff6f61;
+    animation: neonGlow 2s ease-in-out infinite alternate;
+  }
+  @keyframes neonGlow {
+    from {
+      text-shadow:
+        0 0 5px #ff6f61,
+        0 0 10px #ff6f61,
+        0 0 20px #ff6f61,
+        0 0 40px #ff6f61,
+        0 0 80px #ff6f61;
+    }
+    to {
+      text-shadow: none;
+    }
+  }
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ccc;
+    letter-spacing: 2px;
+  }
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=500&color=FF6F61&center=true&vCenter=true&width=600&lines=Data+Science+%26+AI+Enthusiast;Open+Source+Contributor;Passionate+About+Web+%26+VLSI+Design" alt="Typing animation" />
-</p>
+  /* Typing effect container */
+  .typing-container {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+    min-height: 40px;
+    color: #ffb997;
+    border-right: 2px solid #ffb997;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
----
+  /* Main content grid */
+  main {
+    max-width: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  @media (max-width: 700px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  }
 
-## 🚀 About Me
+  section {
+    background: rgba(255,255,255,0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow:
+      0 0 10px rgba(255, 255, 255, 0.1),
+      inset 0 0 20px rgba(255, 255, 255, 0.2);
+  }
 
-```diff
-+ 🔭 I’m currently working on cutting-edge Data Science & AI projects
-+ 🌱 I’m learning advanced Machine Learning and Deep Learning techniques
-- 👯 I’m looking to collaborate on Open Source & Real-world applications
-- 🤔 I’m seeking help with deep understanding of Graph Neural Networks & VLSI
-- 💬 Ask me about Python, SQL, Java, R programming, and React.js
-- 📫 How to reach me: lokeshyechina@gmail.com
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I can solve a Rubik's cube under 1 minute!
-🛠️ Skills & Tools
-Programming Languages	Data Science & ML	Web Development	Tools & Platforms
+  h2 {
+    color: #ff6f61;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ff6f61;
+    padding-bottom: 6px;
+    letter-spacing: 1.5px;
+  }
 
-📈 GitHub Stats
-<p align="center"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=YechinaLokesh&show_icons=true&theme=radical&count_private=true&hide_border=true" /> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YechinaLokesh&layout=compact&theme=radical&hide_border=true" /> </p>
-🎯 Projects
-Project	Description	Demo / Repo
-Blood Bank Management System	Responsive website for blood donation and requests	View Repo
-Solar Tricycle Auto Braking System	Prototype of an automatic braking system for solar tricycles	View Repo
-Movie Rating Prediction	ML model to predict movie ratings using regression	View Repo
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  ul li::before {
+    content: "▶";
+    margin-right: 8px;
+    color: #ffb997;
+  }
 
-🌟 Fun Stats
-Visitors	Stars	Forks	Followers
+  /* Animated skill bars */
+  .skill {
+    margin-bottom: 15px;
+  }
+  .skill-name {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .skill-bar {
+    width: 100%;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .skill-progress {
+    height: 15px;
+    background: #ff6f61;
+    width: 0;
+    border-radius: 10px;
+    animation-fill-mode: forwards;
+  }
 
-📬 Connect with Me
-<p align="center"> <a href="mailto:lokeshyechina@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a> <a href="https://linkedin.com/in/yechinalokesh" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://twitter.com/yechinalokesh" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a> <a href="https://github.com/YechinaLokesh" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a> </p>
-💡 Quote to Live By
-“Code is like humor. When you have to explain it, it’s bad.” – Cory House
+  /* Animate progress bars with delay */
+  .skill-progress.python { animation: fillBar 2s forwards 0.2s; }
+  .skill-progress.js { animation: fillBar 2s forwards 0.4s; }
+  .skill-progress.sql { animation: fillBar 2s forwards 0.6s; }
+  .skill-progress.react { animation: fillBar 2s forwards 0.8s; }
+  .skill-progress.ml { animation: fillBar 2s forwards 1.0s; }
 
-🎉 Thank you for visiting my profile!
-<p align="center"> <img src="https://media.giphy.com/media/xT9IgIc0lryrxvqVGM/giphy.gif" width="300px" /> </p>
-⚡ Fun Section - Random Joke Generator
+  @keyframes fillBar {
+    to { width: var(--progress); }
+  }
 
-🖼️ GitHub Profile Views
+  /* Contact Buttons */
+  .contact-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ff6f61;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  .contact-links a:hover {
+    background: #ff3b2f;
+  }
 
-🛡️ Certifications & Badges
-Certification	Issuer	Badge
-Cisco: Programming Essentials in Python	Cisco	
-Great Learning: SQL for Data Science	Great Learning	
-Lets Upgrade: HTML, JavaScript, Python Bootcamp	Lets Upgrade	
+  /* Footer */
+  footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+</style>
+</head>
+<body>
 
-🧑‍🎓 Education
-Degree	Institution	CGPA
-Diploma in Electrical & Electronics Engineering	T.R.R. College of Technology	9.88
-B.Tech in Computer Science & Engineering	Vignan Institute of Technology and Science	7.88
+<header>
+  <h1>Lokesh Yechina</h1>
+  <p>Data Scientist | AI Enthusiast | Web & VLSI Developer</p>
+  <div class="typing-container" id="typing"></div>
+</header>
 
-🔗 Useful Links
-Portfolio Website
+<main>
+  <section>
+    <h2>About Me</h2>
+    <p>Hi, I'm Lokesh! Passionate about Data Science, Artificial Intelligence, and building impactful solutions. Skilled in Python, Java, SQL, and React. Constantly learning and exploring new technologies. Let's build something amazing together!</p>
+  </section>
 
-Resume
+  <section>
+    <h2>Skills & Expertise</h2>
+    <div class="skill">
+      <div class="skill-name">Python</div>
+      <div class="skill-bar"><div class="skill-progress python" style="--progress: 90%;"></div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-bar"><div class="skill-progress js" style="--progress: 75%;"></div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">SQL</div>
+      <div class="skill-bar"><div class="skill-progress sql" style="--progress: 80%;"></div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">React.js</div>
+      <div class="skill-bar"><div class="skill-progress react" style="--progress: 70%;"></div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Machine Learning</div>
+      <div class="skill-bar"><div class="skill-progress ml" style="--progress: 65%;"></div></div>
+    </div>
+  </section>
 
-Blog
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Blood Bank Management System</strong> - Responsive website for blood donation and requests.</li>
+      <li><strong>Solar Tricycle Auto Braking System</strong> - Prototype for automatic braking on solar tricycles.</li>
+      <li><strong>Movie Rating Prediction</strong> - Machine learning model predicting movie ratings.</li>
+    </ul>
+  </section>
 
-Made with ❤️ by Lokesh Yechina
----
+  <section>
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="mailto:lokeshyechina@gmail.com" target="_blank" rel="noopener noreferrer">📧 Email</a>
+      <a href="https://linkedin.com/in/yechinalokesh" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
+      <a href="https://github.com/YechinaLokesh" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
+      <a href="https://twitter.com/yechinalokesh" target="_blank" rel="noopener noreferrer">🐦 Twitter</a>
+    </div>
+  </section>
+</main>
 
-### How to use:
+<footer>
+  &copy; 2025 Lokesh Yechina — Made with ❤️ and Code
+</footer>
 
-- Replace all URLs with your actual links (portfolio, LinkedIn, Twitter).
-- Replace project repo links with your real GitHub repos.
-- Change your email, social links accordingly.
-- The typing animation is from a free API.
-- The visitor badge & stats use third-party services.
-- The animated GIFs add life to the README.
-- Use shields.io for colorful badges.
-- Add or remove sections as you wish, but this has ~300 lines of markdown with lots of flair.
+<script>
+  // Typing animation script
+  const typingEl = document.getElementById('typing');
+  const phrases = [
+    'Data Scientist.',
+    'AI & ML Enthusiast.',
+    'Open Source Contributor.',
+    'Web & VLSI Developer.',
+    'Lover of Code & Coffee ☕'
+  ];
 
----
+  let phraseIndex = 0;
+  let letterIndex = 0;
+  let currentText = '';
+  let isDeleting = false;
+  let typingSpeed = 120;
 
-If you want, I can help you customize it further or generate GIF banners for you. How do you want it?
+  function type() {
+    const currentPhrase = phrases[phraseIndex];
+    if (isDeleting) {
+      currentText = currentPhrase.substring(0, letterIndex--);
+    } else {
+      currentText = currentPhrase.substring(0, letterIndex++);
+    }
+
+    typingEl.textContent = currentText;
+
+    if (!isDeleting && letterIndex === currentPhrase.length + 1) {
+      isDeleting = true;
+      typingSpeed = 50;
+      setTimeout(type, 1500);
+    } else if (isDeleting && letterIndex === 0) {
+      isDeleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      typingSpeed = 120;
+      setTimeout(type, 300);
+      return;
+    }
+
+    setTimeout(type, typingSpeed);
+  }
+
+  type();
+</script>
+
+</body>
+</html>
