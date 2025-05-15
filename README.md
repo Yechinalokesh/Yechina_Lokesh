@@ -2,6 +2,14 @@
 <h3 align="center">CSE Student | Data Science Intern | Web Developer</h3>
 
 <p align="center">
+  <img src="https://your-image-url.com/profile.jpg" alt="Lokesh Yechina" width="150" height="150"/>
+</p>
+
+<p align="center">
+  <em>"Coding my way to the future — one project at a time."</em>
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=28&center=true&vCenter=true&multiline=true&width=650&height=90&lines=Passionate+Data+Science+Explorer;Creative+Web+Developer;Future+Software+Engineer" alt="Typing SVG" />
 </p>
 
@@ -10,10 +18,10 @@
 ### 🌟 About Me
 
 - 🎓 Final Year Computer Science Student (Data Science Specialization)  
-- 💼 Currently interning as a **Data Science Intern at Prodigy InfoTech**  
-- 💻 Love building cool tech – from websites to machine learning models  
-- ✍️ Passionate about consistency, growth, and self-learning  
-- 🌱 Exploring Deep Learning, Backend Dev & Cloud (AWS)  
+- 💼 Data Science Intern at Prodigy InfoTech  
+- 💻 Building websites, models, and exploring new tech  
+- ✍️ Focused on growth, learning, and innovation  
+- 🌱 Diving into Deep Learning, Backend Dev, & Cloud (AWS)  
 
 ---
 
@@ -33,13 +41,13 @@
 
 ### 🚀 My Projects
 
-| Project Name               | Description                          | Tech Used              | Link                          |
-|----------------------------|------------------------------------|-----------------------|-------------------------------|
-| 🔢 **JNTUH CGPA Calculator**     | Personalized tool for students      | Python, Flask          | [Repo](https://github.com/yechinalokesh/CGPA-Calculator)     |
-| 📊 **Movie Rating Predictor**     | ML model using regression           | Python, scikit-learn   | [Repo](https://github.com/yechinalokesh/Movie-Rating-Predictor) |
-| 🧠 **Nani Movie Dashboard**       | Power BI visual insights            | Power BI               | [Demo](#)                     |
-| 🌐 **Responsive Portfolio Website** | Modern dark theme with animation     | React, CSS             | [Repo](https://github.com/yechinalokesh/Portfolio)            |
-| 🩺 **Doctors Visit Analysis**     | EDA + Visualizations + Health trends| Python, Pandas, Matplotlib | [Repo](https://github.com/yechinalokesh/Doctors-Visit-Analysis) |
+| Project | Description | Tech | Link |
+|---------|---------------|-------|-------|
+| 🔢 **JNTUH CGPA Calculator** | Personalized tool for students | Python, Flask | [Repo](https://github.com/yechinalokesh/CGPA-Calculator) |
+| 📊 **Movie Rating Predictor** | ML regression model | Python, scikit-learn | [Repo](https://github.com/yechinalokesh/Movie-Rating-Predictor) |
+| 🧠 **Nani Movie Dashboard** | Power BI visual insights | Power BI | [Live Demo](#) |
+| 🌐 **Portfolio Website** | Modern portfolio with animations | React, CSS | [Repo](https://github.com/yechinalokesh/Portfolio) |
+| 🩺 **Doctors Visit Analysis** | Data analysis & visualization | Python, Pandas | [Repo](https://github.com/yechinalokesh/Doctors-Visit-Analysis) |
 
 ---
 
