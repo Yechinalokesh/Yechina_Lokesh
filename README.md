@@ -1,65 +1,83 @@
-<h1 align="center">Hi 👋, I'm Lokesh Yechina</h1>
-<h3 align="center">CSE Student | Data Science Intern | Web Developer</h3>
+<!-- Profile Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Lokesh+Yechina;CSE+Student+%7C+Data+Science+Intern+%7C+Web+Developer;Exploring+Machine+Learning+%26+Cloud+Tech" alt="Typing SVG" />
+</p>
+
+---
+
+<!-- Glowing Title -->
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/roshanrahman/GIFs/main/Glow-Neon.gif" width="40px"> Welcome to My Dynamic GitHub World <img src="https://raw.githubusercontent.com/roshanrahman/GIFs/main/Glow-Neon.gif" width="40px">
+</h1>
+
+---
+
+## 🌟 About Me
+
+```diff
++ 🎓 Final Year CSE Student (Data Science @ JNTUH)
++ 💼 Data Science Intern @ Prodigy InfoTech
++ 💻 Passionate about Machine Learning, Web Dev, & Cloud
++ 📚 Loves learning, creating, building & sharing
++ 🔭 Building small projects weekly (consistency 💯)
+```
+
+---
+
+## 🛠️ Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,js,react,mysql,tableau,git,github" />
+</p>
+
+---
+
+## 🔥 Projects I'm Proud Of
+
+| Project | Tech Used | Description |
+|--------|-----------|-------------|
+| 🎓 CGPA Calculator | HTML, JS | Personalized for JNTUH |
+| 🎬 Nani Dashboard | Power BI | Filmography Analytics |
+| 📈 Movie Rating Predictor | Python, ML | Predict movie ratings |
+| 💼 Portfolio Website | HTML, CSS, JS | Dark mode with animation |
+| 🩺 Doctor Visit EDA | Pandas, Seaborn | Health pattern insights |
+
+---
+
+## 📊 GitHub Stats (Live)
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=22&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Passionate+Data+Science+Explorer;Creative+Web+Developer;Future+Software+Engineer" alt="Typing SVG" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yechinalokesh&show_icons=true&theme=radical&count_private=true" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=yechinalokesh&theme=radical&hide_border=true" width="48%" />
 </p>
-
----
-
-### 🌟 About Me
-
-- 🎓 Final Year Computer Science Student (Data Science Specialization)  
-- 💼 Currently interning as a **Data Science Intern at Prodigy InfoTech**  
-- 💻 Love building cool tech – from websites to machine learning models  
-- ✍️ Passionate about consistency, growth, and self-learning  
-- 🌱 Exploring Deep Learning, Backend Dev & Cloud (AWS)  
-
----
-
-### 🔧 Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
-</p>
-
----
-
-### 🚀 My Projects
-
-- 🔢 **JNTUH CGPA Calculator** – Personalized tool for students  
-- 📊 **Movie Rating Predictor** – Machine learning model using regression  
-- 🧠 **Nani Movie Dashboard** – Power BI project for visual insights  
-- 🌐 **Responsive Portfolio Website** – Modern dark theme with animation  
-- 🩺 **Doctors Visit Analysis** – EDA + Visualizations + Health trends  
-
-> 🔗 Explore pinned repos for source code & demos!
-
----
-
-### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yechinalokesh&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yechinalokesh&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yechinalokesh&theme=tokyonight" width="95%" />
 </p>
 
 ---
 
-### 📫 Connect With Me
+## 🏆 GitHub Achievements & Trophies
 
-<p align="left">
-  <a href="mailto:lokeshyechina@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/yechinalokesh"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <!-- Add your LinkedIn link -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yechinalokesh&theme=radical&no-bg=true&margin-w=10" />
 </p>
 
 ---
 
-<p align="center"><img src="https://komarev.com/ghpvc/?username=yechinalokesh&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" /></p>
+## 💬 Connect With Me
+
+<p align="center">
+  <a href="mailto:lokeshyechina@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/yechinalokesh"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=yechinalokesh&label=Profile+Views&color=brightgreen" />
+</p>
+
+---
+
+<!-- Infinite-style content below can be extended in future iterations with project GIFs, live previews, animations, etc. -->
