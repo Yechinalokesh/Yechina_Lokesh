@@ -1,64 +1,58 @@
-<h1 align="center">Hi 👋, I'm Lokesh Yechina</h1>
+<h1 align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+  Hi, I'm Lokesh Yechina
+</h1>
 <h3 align="center">CSE Student | Data Science Intern | Web Developer</h3>
 
 <p align="center">
-  <img src="https://your-image-url.com/profile.jpg" alt="Lokesh Yechina" width="150" height="150"/>
+  <img src="https://your-image-url.com/profile.jpg" alt="Lokesh Yechina" width="150" height="150" style="border-radius: 50%;" />
 </p>
 
 <p align="center">
-  <em>"Coding my way to the future — one project at a time."</em>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=28&center=true&vCenter=true&multiline=true&width=650&height=90&lines=Passionate+Data+Science+Explorer;Creative+Web+Developer;Future+Software+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Passionate+Data+Science+Explorer;Creative+Web+Developer;Future+Software+Engineer;Lifelong+Learner+%F0%9F%93%9A" />
 </p>
 
 ---
 
 ### 🌟 About Me
 
-- 🎓 Final Year Computer Science Student (Data Science Specialization)  
-- 💼 Data Science Intern at Prodigy InfoTech  
-- 💻 Building websites, models, and exploring new tech  
-- ✍️ Focused on growth, learning, and innovation  
-- 🌱 Diving into Deep Learning, Backend Dev, & Cloud (AWS)  
+- 🎓 Final Year **Computer Science Engineering** (Data Science Specialization)  
+- 💼 **Data Science Intern at Prodigy InfoTech**  
+- 💻 Love creating websites, dashboards & intelligent models  
+- 🧠 Currently exploring: **Deep Learning**, **Backend Development**, and **AWS**  
+- 🚀 Driven by passion, progress, and purpose
 
 ---
 
-### 🔧 Tech Stack
+### 🛠️ Tech Stack
 
 <p align="center">
-  <a href="#" title="Python"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
-  <a href="#" title="HTML5"><img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></a>
-  <a href="#" title="CSS3"><img src="https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></a>
-  <a href="#" title="JavaScript"><img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/></a>
-  <a href="#" title="SQL"><img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/></a>
-  <a href="#" title="React"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/></a>
-  <a href="#" title="Tableau"><img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau"/></a>
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,react,mysql,tableau,r" />
 </p>
 
 ---
 
 ### 🚀 My Projects
 
-| Project | Description | Tech | Link |
-|---------|---------------|-------|-------|
-| 🔢 **JNTUH CGPA Calculator** | Personalized tool for students | Python, Flask | [Repo](https://github.com/yechinalokesh/CGPA-Calculator) |
-| 📊 **Movie Rating Predictor** | ML regression model | Python, scikit-learn | [Repo](https://github.com/yechinalokesh/Movie-Rating-Predictor) |
-| 🧠 **Nani Movie Dashboard** | Power BI visual insights | Power BI | [Live Demo](#) |
-| 🌐 **Portfolio Website** | Modern portfolio with animations | React, CSS | [Repo](https://github.com/yechinalokesh/Portfolio) |
-| 🩺 **Doctors Visit Analysis** | Data analysis & visualization | Python, Pandas | [Repo](https://github.com/yechinalokesh/Doctors-Visit-Analysis) |
+| Project                        | Description                          | Tech                      | 🔗 Link |
+|-------------------------------|--------------------------------------|---------------------------|---------|
+| 🔢 **JNTUH CGPA Calculator**  | Personalized GPA calculator for JNTUH | Python, Flask             | [View](https://github.com/yechinalokesh/CGPA-Calculator) |
+| 📊 **Movie Rating Predictor** | ML regression to predict ratings      | Python, scikit-learn      | [View](https://github.com/yechinalokesh/Movie-Rating-Predictor) |
+| 🧠 **Nani Movie Dashboard**   | Visual insights with filters          | Power BI                  | [Demo](#) |
+| 🌐 **Animated Portfolio**     | Modern portfolio with dark theme      | React, Tailwind, Framer   | [View](https://github.com/yechinalokesh/Portfolio) |
+| 🩺 **Doctors Visit Analysis** | Health data analysis & visualization  | Python, Pandas, Matplotlib| [View](https://github.com/yechinalokesh/Doctors-Visit-Analysis) |
 
 ---
 
-### 📊 GitHub Stats
+### 📈 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yechinalokesh&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=yechinalokesh&theme=tokyonight&hide_border=true" height="160"/>
+</div>
 
 <p align="center">
-  <img alt="Lokesh's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=yechinalokesh&show_icons=true&theme=tokyonight&count_private=true" />
-</p>
-
-<p align="center">
-  <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=yechinalokesh&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yechinalokesh&theme=tokyonight" />
 </p>
 
 ---
@@ -66,19 +60,19 @@
 ### 📫 Connect With Me
 
 <p align="center">
-  <a href="mailto:lokeshyechina@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:lokeshyechina@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://github.com/yechinalokesh" target="_blank" rel="noopener noreferrer">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="https://github.com/yechinalokesh">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://linkedin.com/in/yechinalokesh" target="_blank" rel="noopener noreferrer">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://linkedin.com/in/yechinalokesh">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=yechinalokesh&label=Profile%20views&color=0e75b6&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=yechinalokesh&label=Profile+Views&color=blue&style=flat" alt="Lokesh Yechina" />
 </p>
