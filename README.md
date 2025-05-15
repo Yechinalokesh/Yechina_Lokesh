@@ -1,285 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Lokesh Yechina - Dynamic Portfolio README</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-  /* Reset */
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #1f1c2c, #928dab);
-    color: #eee;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-  }
-
-  header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  header h1 {
-    font-size: 3rem;
-    color: #ff6f61;
-    animation: neonGlow 2s ease-in-out infinite alternate;
-  }
-  @keyframes neonGlow {
-    from {
-      text-shadow:
-        0 0 5px #ff6f61,
-        0 0 10px #ff6f61,
-        0 0 20px #ff6f61,
-        0 0 40px #ff6f61,
-        0 0 80px #ff6f61;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lokesh Yechina - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f111a;
+      color: #cbd5e1;
+      margin: 0;
+      padding: 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
     }
-    to {
-      text-shadow: none;
+    h1, h3 {
+      text-align: center;
+      color: #00f7ff;
+      margin-bottom: 0.2em;
     }
-  }
-  header p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-    color: #ccc;
-    letter-spacing: 2px;
-  }
-
-  /* Typing effect container */
-  .typing-container {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 20px;
-    min-height: 40px;
-    color: #ffb997;
-    border-right: 2px solid #ffb997;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  /* Main content grid */
-  main {
-    max-width: 900px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    margin-bottom: 3rem;
-  }
-  @media (max-width: 700px) {
-    main {
-      grid-template-columns: 1fr;
+    h3 {
+      color: #81a1c1;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 1em;
     }
-  }
-
-  section {
-    background: rgba(255,255,255,0.05);
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow:
-      0 0 10px rgba(255, 255, 255, 0.1),
-      inset 0 0 20px rgba(255, 255, 255, 0.2);
-  }
-
-  h2 {
-    color: #ff6f61;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #ff6f61;
-    padding-bottom: 6px;
-    letter-spacing: 1.5px;
-  }
-
-  ul {
-    list-style-type: none;
-  }
-  ul li {
-    margin: 10px 0;
-    font-size: 1.1rem;
-  }
-  ul li::before {
-    content: "▶";
-    margin-right: 8px;
-    color: #ffb997;
-  }
-
-  /* Animated skill bars */
-  .skill {
-    margin-bottom: 15px;
-  }
-  .skill-name {
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
-  .skill-bar {
-    width: 100%;
-    background: #222;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  .skill-progress {
-    height: 15px;
-    background: #ff6f61;
-    width: 0;
-    border-radius: 10px;
-    animation-fill-mode: forwards;
-  }
-
-  /* Animate progress bars with delay */
-  .skill-progress.python { animation: fillBar 2s forwards 0.2s; }
-  .skill-progress.js { animation: fillBar 2s forwards 0.4s; }
-  .skill-progress.sql { animation: fillBar 2s forwards 0.6s; }
-  .skill-progress.react { animation: fillBar 2s forwards 0.8s; }
-  .skill-progress.ml { animation: fillBar 2s forwards 1.0s; }
-
-  @keyframes fillBar {
-    to { width: var(--progress); }
-  }
-
-  /* Contact Buttons */
-  .contact-links {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .contact-links a {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: #ff6f61;
-    color: white;
-    text-decoration: none;
-    padding: 12px 18px;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: background 0.3s ease;
-  }
-  .contact-links a:hover {
-    background: #ff3b2f;
-  }
-
-  /* Footer */
-  footer {
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #aaa;
-  }
-</style>
+    hr {
+      border: 1px solid #2e3440;
+      margin: 2em 0;
+    }
+    section {
+      margin-bottom: 2em;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 0.7em;
+      padding-left: 1.2em;
+      position: relative;
+    }
+    ul li::before {
+      content: '🌟';
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .tech-stack img {
+      margin: 0.3em;
+      height: 40px;
+      vertical-align: middle;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #00f7ff70;
+    }
+    .projects ul li::before {
+      content: "🔹";
+    }
+    .stats img {
+      margin: 0.5em 0.8em;
+      height: 120px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00f7ff88;
+    }
+    .contact a img {
+      margin-right: 0.7em;
+      height: 40px;
+      vertical-align: middle;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #00f7ff70;
+    }
+    .typing-container {
+      text-align: center;
+      font-size: 24px;
+      color: #00f7ff;
+      font-weight: 600;
+      height: 80px;
+      margin-bottom: 1em;
+      font-family: 'Courier New', Courier, monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #00f7ff;
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
 </head>
 <body>
+  <h1>Hi 👋, I'm Lokesh Yechina</h1>
+  <h3>CSE Student | Data Science Intern | Web Developer</h3>
 
-<header>
-  <h1>Lokesh Yechina</h1>
-  <p>Data Scientist | AI Enthusiast | Web & VLSI Developer</p>
   <div class="typing-container" id="typing"></div>
-</header>
 
-<main>
-  <section>
-    <h2>About Me</h2>
-    <p>Hi, I'm Lokesh! Passionate about Data Science, Artificial Intelligence, and building impactful solutions. Skilled in Python, Java, SQL, and React. Constantly learning and exploring new technologies. Let's build something amazing together!</p>
-  </section>
+  <hr />
 
   <section>
-    <h2>Skills & Expertise</h2>
-    <div class="skill">
-      <div class="skill-name">Python</div>
-      <div class="skill-bar"><div class="skill-progress python" style="--progress: 90%;"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">JavaScript</div>
-      <div class="skill-bar"><div class="skill-progress js" style="--progress: 75%;"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">SQL</div>
-      <div class="skill-bar"><div class="skill-progress sql" style="--progress: 80%;"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">React.js</div>
-      <div class="skill-bar"><div class="skill-progress react" style="--progress: 70%;"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">Machine Learning</div>
-      <div class="skill-bar"><div class="skill-progress ml" style="--progress: 65%;"></div></div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
+    <h2>🌟 About Me</h2>
     <ul>
-      <li><strong>Blood Bank Management System</strong> - Responsive website for blood donation and requests.</li>
-      <li><strong>Solar Tricycle Auto Braking System</strong> - Prototype for automatic braking on solar tricycles.</li>
-      <li><strong>Movie Rating Prediction</strong> - Machine learning model predicting movie ratings.</li>
+      <li>🎓 Final Year Computer Science Student (Data Science Specialization)</li>
+      <li>💼 Currently interning as a <strong>Data Science Intern at Prodigy InfoTech</strong></li>
+      <li>💻 Love building cool tech – from websites to machine learning models</li>
+      <li>✍️ Passionate about consistency, growth, and self-learning</li>
+      <li>🌱 Exploring Deep Learning, Backend Dev & Cloud (AWS)</li>
     </ul>
   </section>
 
+  <hr />
+
   <section>
-    <h2>Contact Me</h2>
-    <div class="contact-links">
-      <a href="mailto:lokeshyechina@gmail.com" target="_blank" rel="noopener noreferrer">📧 Email</a>
-      <a href="https://linkedin.com/in/yechinalokesh" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
-      <a href="https://github.com/YechinaLokesh" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
-      <a href="https://twitter.com/yechinalokesh" target="_blank" rel="noopener noreferrer">🐦 Twitter</a>
+    <h2>🔧 Tech Stack</h2>
+    <div class="tech-stack">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+      <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" alt="Tableau" />
     </div>
   </section>
-</main>
 
-<footer>
-  &copy; 2025 Lokesh Yechina — Made with ❤️ and Code
-</footer>
+  <hr />
 
-<script>
-  // Typing animation script
-  const typingEl = document.getElementById('typing');
-  const phrases = [
-    'Data Scientist.',
-    'AI & ML Enthusiast.',
-    'Open Source Contributor.',
-    'Web & VLSI Developer.',
-    'Lover of Code & Coffee ☕'
-  ];
+  <section class="projects">
+    <h2>🚀 My Projects</h2>
+    <ul>
+      <li>🔢 <strong>JNTUH CGPA Calculator</strong> – Personalized tool for students</li>
+      <li>📊 <strong>Movie Rating Predictor</strong> – Machine learning model using regression</li>
+      <li>🧠 <strong>Nani Movie Dashboard</strong> – Power BI project for visual insights</li>
+      <li>🌐 <strong>Responsive Portfolio Website</strong> – Modern dark theme with animation</li>
+      <li>🩺 <strong>Doctors Visit Analysis</strong> – EDA + Visualizations + Health trends</li>
+    </ul>
+    <p><em>🔗 Explore pinned repos for source code & demos!</em></p>
+  </section>
 
-  let phraseIndex = 0;
-  let letterIndex = 0;
-  let currentText = '';
-  let isDeleting = false;
-  let typingSpeed = 120;
+  <hr />
 
-  function type() {
-    const currentPhrase = phrases[phraseIndex];
-    if (isDeleting) {
-      currentText = currentPhrase.substring(0, letterIndex--);
-    } else {
-      currentText = currentPhrase.substring(0, letterIndex++);
+  <section class="stats" style="text-align:center;">
+    <h2>📊 GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=yechinalokesh&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yechinalokesh&theme=tokyonight" alt="GitHub Streak" />
+  </section>
+
+  <hr />
+
+  <section class="contact">
+    <h2>📫 Connect With Me</h2>
+    <p>
+      <a href="mailto:lokeshyechina@gmail.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+      </a>
+      <a href="https://github.com/yechinalokesh" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      </a>
+      <a href="#" title="LinkedIn link (Add your link)" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+    </p>
+  </section>
+
+  <hr />
+
+  <p style="text-align:center;">
+    <img src="https://komarev.com/ghpvc/?username=yechinalokesh&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  </p>
+
+  <script>
+    // Typing animation for the lines below (like your typing svg)
+    const lines = [
+      "Passionate Data Science Explorer",
+      "Creative Web Developer",
+      "Future Software Engineer"
+    ];
+
+    let currentLine = 0;
+    let currentChar = 0;
+    const typingSpeed = 100;
+    const pauseBetweenLines = 1500;
+
+    const typingElement = document.getElementById('typing');
+
+    function type() {
+      if (currentLine >= lines.length) {
+        currentLine = 0; // loop continuously
+      }
+
+      let line = lines[currentLine];
+      typingElement.textContent = line.substring(0, currentChar);
+      currentChar++;
+
+      if (currentChar > line.length) {
+        setTimeout(() => {
+          currentChar = 0;
+          currentLine++;
+          type();
+        }, pauseBetweenLines);
+      } else {
+        setTimeout(type, typingSpeed);
+      }
     }
 
-    typingEl.textContent = currentText;
-
-    if (!isDeleting && letterIndex === currentPhrase.length + 1) {
-      isDeleting = true;
-      typingSpeed = 50;
-      setTimeout(type, 1500);
-    } else if (isDeleting && letterIndex === 0) {
-      isDeleting = false;
-      phraseIndex = (phraseIndex + 1) % phrases.length;
-      typingSpeed = 120;
-      setTimeout(type, 300);
-      return;
-    }
-
-    setTimeout(type, typingSpeed);
-  }
-
-  type();
-</script>
-
+    type();
+  </script>
 </body>
 </html>
