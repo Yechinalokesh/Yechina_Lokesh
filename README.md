@@ -106,6 +106,29 @@ I'm a passionate **Computer Science and Engineering** student and budding **Data
 
 ## 📚 Fun Code Snippet
 
+
+---
+
+### How to use:
+
+1. Replace **yourusername** with your GitHub username everywhere.
+2. Replace links to your actual projects and socials.
+3. Replace your name and email.
+4. Copy-paste the entire content in your GitHub profile README (`username/username` repo's README.md).
+5. Voila! You get a fully animated, live, interactive profile.
+
+---
+
+If you want, I can customize it fully with your real info and social links — just share them!
+
+---
+
+Would you like me to generate the fully customized version for you right now?  
+Or do you want it themed with your favorite colors or anime vibe?  
+
+Let me know!
+
+
 ```python
 def greet(name):
     waves = ["👋", "🤚", "🙌"]
