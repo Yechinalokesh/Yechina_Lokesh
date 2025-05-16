@@ -1,91 +1,103 @@
-<h2 align="left">Hi 👋! I'm Lokesh Yechina, a passionate Computer Science student specializing in Data Science!</h2>
+<h1 align="center">Hey there! 👋 I'm Lokesh Yechina</h1>
+<p align="center" style="font-size:1.2rem; max-width: 700px; margin: auto;">
+  A curious Computer Science student with a deep passion for Data Science, coding, and building cool stuff that solves real-world problems. Always eager to learn new things and turn ideas into reality!
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=👨‍💻+Lifelong+Learner;💡+Problem+Solver;🚀+Aspiring+Data+Scientist;🌐+Web+Development+Enthusiast" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1200&color=F75C7E&center=true&vCenter=true&width=480&lines=👨‍💻+Lifelong+Learner;💡+Creative+Problem+Solver;🚀+Aspiring+Data+Scientist;🌐+Web+Dev+Enthusiast" alt="Typing SVG" />
 </p>
 
 ---
 
 ## 🔥 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YechinaLokesh&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img width="12" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YechinaLokesh&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YechinaLokesh&show_icons=true&include_all_commits=true&count_private=true&theme=radical" height="160" alt="Lokesh's GitHub stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YechinaLokesh&layout=compact&langs_count=5&theme=radical" height="160" alt="Most Used Languages" />
+</p>
 
 ---
 
 ## 🛠 Skills & Tools
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,r,mysql,html,css,js,nodejs,react,tailwind,vscode,git,github,postman" />
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,c,r,mysql,html,css,js,nodejs,react,tailwind,vscode,git,github,postman" alt="Skills Icons" />
+</p>
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-- 🎬 **Movie Rating Prediction** – A machine learning model to predict movie ratings based on genre, cast, and crew.
-- 🏥 **Doctor Visits Data Analysis** – A comprehensive EDA project exploring healthcare trends using Python and Matplotlib.
-- 🩸 **Blood Bank Management System** – A responsive website to streamline blood donation and inventory.
-- ☀️ **Solar Tricycle Braking System (Prototype)** – An innovative mini-project focused on safety with solar automation.
+- 🎬 **Movie Rating Prediction**  
+  Built a ML model that predicts movie ratings by analyzing genre, cast, and crew data.  
 
----
+- 🏥 **Doctor Visits Data Analysis**  
+  Performed deep EDA on healthcare data to uncover insights using Python and Matplotlib.
 
-## 🏆 Achievements
+- 🩸 **Blood Bank Management System**  
+  Created a responsive website to simplify blood donation and inventory management.
 
-- 🥇 **1st Prize** – Poster Presentation on National Mathematics Day.
-- 🎖️ **Enthusiastic Learner** – Earned recognition for consistent engagement.
-- 👨‍🎓 **Campus Ambassador** – Lets Upgrade.
-- 📜 **Certifications** from Cisco, Great Learning, Lets Upgrade.
+- ☀️ **Solar Tricycle Braking System (Prototype)**  
+  Designed a solar-powered safety system prototype for braking automation.
 
 ---
 
-## 📚 Currently Learning
+## 🏆 Highlights & Certifications
 
-- 📈 Advanced Machine Learning Techniques  
-- 📊 Power BI for Data Visualization  
-- 🌐 Full-Stack Web Development with MERN Stack  
-- 💡 GitHub Actions & Deployment
+- 🥇 Winner of 1st Prize at National Mathematics Day Poster Presentation  
+- 🎖️ Recognized as an Enthusiastic Learner  
+- 👨‍🎓 Campus Ambassador for Lets Upgrade  
+- 📜 Certified by Cisco, Great Learning, and Lets Upgrade in Python, Data Science, SQL, and more  
 
 ---
 
-## 📫 Connect with Me
+## 📚 What I’m Learning Now
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/lokeshyechina" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" />
+- 📈 Advanced Machine Learning techniques  
+- 📊 Power BI for dynamic Data Visualization  
+- 🌐 Full-stack Web Development with MERN stack  
+- 💡 GitHub Actions & Continuous Deployment
+
+---
+
+## 📫 Let’s Connect!
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/lokeshyechina" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <img width="10" />
-  <a href="https://www.instagram.com/lokesh_yechina" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="30" />
+  &nbsp;
+  <a href="https://www.instagram.com/lokesh_yechina" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <img width="10" />
-  <a href="https://www.hackerrank.com/lokeshyechina" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge" height="30" />
+  &nbsp;
+  <a href="https://www.hackerrank.com/lokeshyechina" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
   </a>
-</div>
+</p>
 
 ---
 
-## ✍️ Dev Quote
+## ✍️ Daily Dev Quote
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)
+<p align="center">
+  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</p>
+
+---
+
+## 🎉 Fun Facts About Me
+
+- 🌍 “Learn. Build. Repeat.” is my mantra  
+- 🤖 I automate tedious tasks with Python whenever possible  
+- 🎮 Gaming and anime are my go-to downtime activities  
+- 🎯 My 2025 goal: Contribute to open source & land a dream tech role!
 
 ---
 
 ## 🐍 GitHub Contribution Snake
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/AKASH722/AKASH722/output/snake.svg" alt="Snake animation" />
-</div>
-
----
-
-## 🎯 Fun Facts About Me
-
-- 🌍 I believe in "Learn. Build. Repeat."
-- 📱 I love automating boring stuff with Python.
-- 🎮 When not coding, I enjoy gaming and watching anime.
-- 🎯 Goal for 2025: Contribute to Open Source and crack a top tech role!
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AKASH722/AKASH722/output/snake.svg" alt="GitHub contribution snake" />
+</p>
