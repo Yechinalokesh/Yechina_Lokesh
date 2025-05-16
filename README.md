@@ -1,103 +1,77 @@
-<h1 align="center">Hey there! 👋 I'm Lokesh Yechina</h1>
-<p align="center" style="font-size:1.2rem; max-width: 700px; margin: auto;">
-  A curious Computer Science student with a deep passion for Data Science, coding, and building cool stuff that solves real-world problems. Always eager to learn new things and turn ideas into reality!
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1200&color=F75C7E&center=true&vCenter=true&width=480&lines=👨‍💻+Lifelong+Learner;💡+Creative+Problem+Solver;🚀+Aspiring+Data+Scientist;🌐+Web+Dev+Enthusiast" alt="Typing SVG" />
-</p>
-
----
-
-## 🔥 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YechinaLokesh&show_icons=true&include_all_commits=true&count_private=true&theme=radical" height="160" alt="Lokesh's GitHub stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YechinaLokesh&layout=compact&langs_count=5&theme=radical" height="160" alt="Most Used Languages" />
-</p>
-
----
-
 ## 🛠 Skills & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,r,mysql,html,css,js,nodejs,react,tailwind,vscode,git,github,postman" alt="Skills Icons" />
-</p>
 
----
+<!-- Python Animated SVG Icon -->
+<a href="https://www.python.org/" target="_blank" style="margin: 0 12px;">
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="cursor:pointer; transition: transform 0.3s ease;">
+    <title>Python</title>
+    <circle cx="24" cy="24" r="22" stroke="#3776AB" stroke-width="3" />
+    <path d="M16 12C16 9 18 6 21 6H27C30 6 32 9 32 12V16H16V12Z" fill="#FFD43B"/>
+    <path d="M32 36C32 39 30 42 27 42H21C18 42 16 39 16 36V32H32V36Z" fill="#3776AB"/>
+    <circle cx="24" cy="18" r="2" fill="#3776AB" />
+    <circle cx="24" cy="30" r="2" fill="#FFD43B" />
+    <style>
+      svg:hover {
+        transform: scale(1.2);
+        filter: drop-shadow(0 0 6px #FFD43B);
+      }
+      svg:hover path {
+        animation: pulse 2s infinite ease-in-out;
+      }
+      @keyframes pulse {
+        0%, 100% { fill-opacity: 1; }
+        50% { fill-opacity: 0.6; }
+      }
+    </style>
+  </svg>
+</a>
 
-## 🚀 Featured Projects
+<!-- JavaScript Animated Icon -->
+<a href="https://www.java.com/" target="_blank" style="margin: 0 12px;">
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="cursor:pointer; transition: transform 0.3s ease;">
+    <title>Java</title>
+    <path d="M24 6c6 2 8 8 8 14s-2 12-8 14c-6-2-8-8-8-14s2-12 8-14z" stroke="#5382a1" stroke-width="3" fill="#f89820"/>
+    <path d="M26 12c1 3-2 6-4 5-3-1 1-5 4-5z" fill="#f89820" />
+    <style>
+      svg:hover {
+        transform: scale(1.2);
+        filter: drop-shadow(0 0 6px #f89820);
+      }
+      svg:hover path {
+        animation: glow 2.5s infinite ease-in-out;
+      }
+      @keyframes glow {
+        0%, 100% { stroke-opacity: 1; fill-opacity: 1; }
+        50% { stroke-opacity: 0.6; fill-opacity: 0.7; }
+      }
+    </style>
+  </svg>
+</a>
 
-- 🎬 **Movie Rating Prediction**  
-  Built a ML model that predicts movie ratings by analyzing genre, cast, and crew data.  
+<!-- React Animated Icon -->
+<a href="https://reactjs.org/" target="_blank" style="margin: 0 12px;">
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="cursor:pointer; transition: transform 0.3s ease;">
+    <title>React</title>
+    <circle cx="24" cy="24" r="6" stroke="#61dafb" stroke-width="3" fill="none" />
+    <ellipse cx="24" cy="24" rx="14" ry="7" stroke="#61dafb" stroke-width="2" />
+    <ellipse cx="24" cy="24" rx="7" ry="14" stroke="#61dafb" stroke-width="2" transform="rotate(60 24 24)" />
+    <ellipse cx="24" cy="24" rx="7" ry="14" stroke="#61dafb" stroke-width="2" transform="rotate(-60 24 24)" />
+    <style>
+      svg:hover {
+        transform: scale(1.2);
+        filter: drop-shadow(0 0 8px #61dafb);
+      }
+      svg:hover ellipse {
+        animation: spin 3s linear infinite;
+        transform-origin: center;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg) }
+        100% { transform: rotate(360deg) }
+      }
+    </style>
+  </svg>
+</a>
 
-- 🏥 **Doctor Visits Data Analysis**  
-  Performed deep EDA on healthcare data to uncover insights using Python and Matplotlib.
-
-- 🩸 **Blood Bank Management System**  
-  Created a responsive website to simplify blood donation and inventory management.
-
-- ☀️ **Solar Tricycle Braking System (Prototype)**  
-  Designed a solar-powered safety system prototype for braking automation.
-
----
-
-## 🏆 Highlights & Certifications
-
-- 🥇 Winner of 1st Prize at National Mathematics Day Poster Presentation  
-- 🎖️ Recognized as an Enthusiastic Learner  
-- 👨‍🎓 Campus Ambassador for Lets Upgrade  
-- 📜 Certified by Cisco, Great Learning, and Lets Upgrade in Python, Data Science, SQL, and more  
-
----
-
-## 📚 What I’m Learning Now
-
-- 📈 Advanced Machine Learning techniques  
-- 📊 Power BI for dynamic Data Visualization  
-- 🌐 Full-stack Web Development with MERN stack  
-- 💡 GitHub Actions & Continuous Deployment
-
----
-
-## 📫 Let’s Connect!
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/lokeshyechina" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://www.instagram.com/lokesh_yechina" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  &nbsp;
-  <a href="https://www.hackerrank.com/lokeshyechina" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
-  </a>
-</p>
-
----
-
-## ✍️ Daily Dev Quote
-
-<p align="center">
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-</p>
-
----
-
-## 🎉 Fun Facts About Me
-
-- 🌍 “Learn. Build. Repeat.” is my mantra  
-- 🤖 I automate tedious tasks with Python whenever possible  
-- 🎮 Gaming and anime are my go-to downtime activities  
-- 🎯 My 2025 goal: Contribute to open source & land a dream tech role!
-
----
-
-## 🐍 GitHub Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AKASH722/AKASH722/output/snake.svg" alt="GitHub contribution snake" />
 </p>
