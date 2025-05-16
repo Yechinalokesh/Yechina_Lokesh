@@ -1,155 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lokesh Yechina - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lokesh Yechina | Portfolio</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+      scroll-behavior: smooth;
     }
 
-    body {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      padding: 20px;
+    a { color: #38bdf8; text-decoration: none; transition: 0.3s; }
+    a:hover { color: #0ea5e9; }
+
+    header, footer, section {
+      padding: 60px 10%;
     }
 
     header {
+      background: linear-gradient(to right, #1e293b, #334155);
       text-align: center;
-      padding: 40px 0 20px;
     }
 
     header h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
+      margin-bottom: 10px;
     }
 
     header p {
       font-size: 1.2rem;
-      color: #a8dadc;
+      color: #94a3b8;
     }
 
-    section {
-      margin: 40px 0;
-      background: rgba(255, 255, 255, 0.05);
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1e293b;
+      padding: 10px;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
 
-    h2 {
-      border-bottom: 2px solid #00b4d8;
-      padding-bottom: 10px;
+    nav a {
+      font-weight: 500;
+    }
+
+    section h2 {
+      font-size: 2rem;
       margin-bottom: 20px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 12px;
     }
 
-    .about, .skills, .projects, .contact {
-      padding: 10px 0;
+    .about, .contact {
+      max-width: 800px;
+      margin: auto;
     }
 
-    .skills-icons {
+    .skills {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      justify-content: center;
     }
 
-    .skills-icons span {
-      background: #1d3557;
-      padding: 8px 14px;
-      border-radius: 5px;
-      font-size: 1rem;
+    .skills span {
+      background: #1e293b;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-weight: bold;
     }
 
-    .project-grid {
+    .projects {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
     }
 
     .project-card {
-      background: #1a1a2e;
-      border-radius: 10px;
+      background: #1e293b;
       padding: 20px;
-      transition: transform 0.3s ease;
+      border-radius: 12px;
+      transition: 0.3s;
+      border: 1px solid transparent;
     }
 
     .project-card:hover {
-      transform: scale(1.05);
+      border-color: #38bdf8;
+      transform: translateY(-5px);
     }
 
     .project-card h3 {
+      color: #facc15;
       margin-bottom: 10px;
-      color: #ffd166;
-    }
-
-    .project-card p {
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-
-    .project-card a {
-      display: inline-block;
-      margin-top: 10px;
-      color: #06d6a0;
-      text-decoration: none;
-    }
-
-    .contact p, .contact a {
-      font-size: 1.1rem;
-      color: #f1faee;
     }
 
     footer {
       text-align: center;
-      margin-top: 60px;
+      color: #94a3b8;
       font-size: 0.9rem;
-      color: #b0bec5;
+      background: #0f172a;
     }
 
     .wave {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 120px;
+      position: relative;
+      height: 100px;
       background: url('https://i.ibb.co/VCqMptT/wave.png') repeat-x;
-      animation: wave 6s linear infinite;
+      animation: wave 8s linear infinite;
     }
 
     @keyframes wave {
-      0% {
-        background-position-x: 0;
-      }
-      100% {
-        background-position-x: 1000px;
-      }
+      0% { background-position-x: 0; }
+      100% { background-position-x: 1000px; }
+    }
+
+    /* Scroll Reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 1s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive Typography */
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.4rem; }
+      nav { flex-wrap: wrap; gap: 10px; }
     }
   </style>
 </head>
 <body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- HEADER -->
   <header>
     <h1>Hi, I'm Lokesh Yechina 👋</h1>
-    <p>Computer Science & Engineering Student | Data Science Intern | Web Developer</p>
+    <p>CS Engineer | Data Science Intern | Web Developer | UI Designer</p>
   </header>
 
-  <section class="about">
+  <!-- ABOUT -->
+  <section id="about" class="reveal about">
     <h2>💻 About Me</h2>
-    <p>🎓 CSE Undergrad at Vignan Institute of Technology and Science</p>
-    <p>💼 Data Science Intern at Prodigy InfoTech</p>
-    <p>🔍 Python | Machine Learning | Web Development | VLSI</p>
-    <p>🎮 Anime Fan | Tech Tinkerer | Curious Learner</p>
+    <p>🎓 Final-year CSE undergrad at Vignan Institute of Technology and Science.<br/>
+    💼 Currently a Data Science Intern @ Prodigy InfoTech.<br/>
+    🔍 Passionate about Python, ML, Web Dev, and VLSI.<br/>
+    🎮 Love anime, tech, and solving real-world problems with code.</p>
   </section>
 
-  <section class="skills">
+  <!-- SKILLS -->
+  <section id="skills" class="reveal">
     <h2>🚀 Skills</h2>
-    <div class="skills-icons">
+    <div class="skills">
       <span>Python</span>
       <span>Java</span>
       <span>JavaScript</span>
-      <span>React</span>
+      <span>React.js</span>
       <span>HTML</span>
       <span>CSS</span>
       <span>SQL</span>
@@ -159,40 +182,57 @@
     </div>
   </section>
 
-  <section class="projects">
+  <!-- PROJECTS -->
+  <section id="projects" class="reveal">
     <h2>🌟 Featured Projects</h2>
-    <div class="project-grid">
+    <div class="projects">
       <div class="project-card">
         <h3>Blood Bank Website</h3>
         <p>A responsive platform for blood donations and requests.</p>
-        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-        <a href="#">GitHub Repo</a>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <a href="#">GitHub Repo →</a>
       </div>
       <div class="project-card">
         <h3>Solar Tricycle Brake System</h3>
-        <p>A prototype for automatic braking in tricycles using sensors.</p>
-        <p><strong>Tech Stack:</strong> Embedded C, Sensors</p>
-        <a href="#">GitHub Repo</a>
+        <p>Prototype for automatic braking in tricycles using sensors.</p>
+        <p><strong>Tech:</strong> Embedded C, Sensors</p>
+        <a href="#">GitHub Repo →</a>
       </div>
       <div class="project-card">
         <h3>Movie Dashboard</h3>
-        <p>Dashboard providing insights on Nani's filmography and ratings.</p>
-        <p><strong>Tech Stack:</strong> Power BI</p>
-        <a href="#">GitHub Repo</a>
+        <p>Insights on Nani's films and ratings using Power BI.</p>
+        <p><strong>Tech:</strong> Power BI</p>
+        <a href="#">GitHub Repo →</a>
       </div>
     </div>
   </section>
 
-  <section class="contact">
-    <h2>🔗 Contact</h2>
-    <p>Email: <a href="mailto:lokeshyechina@gmail.com">lokeshyechina@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/YechinaLokesh" target="_blank">@YechinaLokesh</a></p>
+  <!-- CONTACT -->
+  <section id="contact" class="reveal contact">
+    <h2>🔗 Contact Me</h2>
+    <p>📧 Email: <a href="mailto:lokeshyechina@gmail.com">lokeshyechina@gmail.com</a></p>
+    <p>💻 GitHub: <a href="https://github.com/YechinaLokesh" target="_blank">@YechinaLokesh</a></p>
   </section>
 
+  <!-- WAVE & FOOTER -->
+  <div class="wave"></div>
   <footer>
     <p>Made with ❤️ by Lokesh Yechina</p>
   </footer>
 
-  <div class="wave"></div>
+  <!-- JavaScript -->
+  <script>
+    // Reveal on Scroll
+    const reveals = document.querySelectorAll('.reveal');
+    window.addEventListener('scroll', () => {
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = reveals[i].getBoundingClientRect().top;
+        if (elementTop < windowHeight - 50) {
+          reveals[i].classList.add('active');
+        }
+      }
+    });
+  </script>
 </body>
 </html>
