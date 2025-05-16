@@ -49,11 +49,11 @@
 
 ### 🔥 Projects Snapshot
 
-| 💼 Project                    | ⚙️ Tech Stack              | 📌 Status       |
-|-----------------------------|----------------------------|----------------|
-| 🩸 Blood Bank System         | HTML, CSS, JavaScript      | Coming Soon    |
-| 🎥 Movie Dashboard (Nani)    | Power BI                   | In Progress    |
-| 🎬 Movie Rating Prediction   | Python, Machine Learning   | Building...    |
+| 💼 Project                | ⚙️ Tech Stack             | 📌 Status      |
+|--------------------------|---------------------------|----------------|
+| 🩸 Blood Bank System     | HTML, CSS, JavaScript     | Coming Soon    |
+| 🎥 Movie Dashboard (Nani)| Power BI                  | In Progress    |
+| 🎬 Movie Rating Prediction| Python, Machine Learning  | Building...    |
 
 ---
 
